@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Reenie+Beanie');
+
+/*Antimation*/
+
+.topblock {
+  background-color: #FFD98E;
+  margin-top:0px;
+  text-align:center;
+  padding: 100px;
+  
+}
+
+.fun-font {
+  font-family: 'Reenie Beanie', cursive;
+  font-size:9em;
+ color: #3F4983;
+}
+
+.dates-detailz {
+  background-color: #000066;
+  margin: 80px 0px;
+  padding:16px 0px;
+  color: white;
+}
+
+
+.section-header {
+  font-family: 'Reenie Beanie', cursive;
+  padding: 0px 24px;
+  font-size:5em;
+}
+
+.col-sm-8 p {
+  font-size:1.5em;
+  padding:0px 24px;
+}
+
+#bye {
+  text-align:center;
+  background-color: #3F4983;
+}
+
+#byetown {
+  color:white;
+  padding: 100px;
+  margin-top: 0px;
+}
+
+.sample {
+  background-color:#FFB677;
+}
+
+.mainrow {
+  padding:32px 0px;
+  border-bottom: 1px dotted #3F4983;
+}
+
+
+
+
+.navbar-inverse {
+  text-align: center;
+  background-color: #FFD98E !important ;
+}
+
+
+.navbar-inverse .navbar-nav li a {
+  color: black !important;
+}
+
+
+.navbar-inverse .navbar-nav li a:hover {
+  color: white !important;
+  background-color: #0038A8 !important;
+   animation: fadein 0.5s;
+}
+
+body {
+  margin:0px;
+  padding:0px;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+img {
+ animation: fadein 5s;
+  padding-bottom:32px;
+}
+
+.top {
+  width:250px;
+  padding-top:24px;
+}
+
+h1 {
+  animation: fadein 10s;
+}
+
+p {
+  padding-bottom:16px;
+}
+
+
+
+/*DOWNARROW*/
+
+.arrow-down {
+  position: relative;
+}
+.arrow-down:after,
+.arrow-down:before {
+  border-top: 20px solid #FFD98E;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  margin-left: -20px;
+  position: absolute;
+  bottom: -20px;
+  content: '';
+  left: 50%;
+}
+.arrow-down:before {
+  border-right: 20px solid #FFD98E;
+  border-top: 20px solid;
+  border-left: 20px solid transparent;
+  border-top-color: #B1B1B1;
+  bottom: -22px;
+  margin-left: -20px;
+}
+
+.dates{
+  background-color: #ff8364;
+  text-align:center;
+}
+
+.major {
+  background-color: #FFD98E;
+}
+
+.dates-detail {
+  border: 1px solid white;
+  color:white;
+  margin:60px 0px;
+}
+
+.deets{
+  margin: 32px 0px;
+}
+
+#date {
+  font-size:1.5em;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+
+.
+-main {
+  padding: 0px 24px;
+}
+
+.btn-wrap {
+  padding: 24px 24px 0px 24px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
