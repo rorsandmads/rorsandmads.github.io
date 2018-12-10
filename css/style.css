@@ -7,7 +7,7 @@
   margin-top:0px;
   text-align:center;
   padding: 60px 0px 100px 0px;
-  
+
 }
 
 .fun-font {
@@ -179,4 +179,8 @@ p {
 
 html {
   scroll-behavior: smooth;
+}
+
+.row:before, row:after {
+    display: inline-block !important;
 }
