@@ -6,7 +6,7 @@
   background-color: #FFD98E;
   margin-top:0px;
   text-align:center;
-  padding: 100px;
+  padding: 60px 0px 100px 0px;
   
 }
 
@@ -30,9 +30,17 @@
   font-size:5em;
 }
 
-.col-sm-8 p {
+.top {
+  padding-bottom: 100px;
+}
+
+.col-lg-8 p {
   font-size:1.5em;
   padding:0px 24px;
+}
+
+.col-lg-4 {
+  text-align:center;
 }
 
 #bye {
@@ -42,8 +50,9 @@
 
 #byetown {
   color:white;
-  padding: 100px;
+  padding: 70px 0px 100px 0px;
   margin-top: 0px;
+  font-size: 80px;
 }
 
 .sample {
@@ -71,7 +80,7 @@
 
 .navbar-inverse .navbar-nav li a:hover {
   color: white !important;
-  background-color: #0038A8 !important;
+  background-color: #3F4983 !important;
    animation: fadein 0.5s;
 }
 
@@ -88,7 +97,10 @@ body {
 
 img {
  animation: fadein 5s;
-  padding-bottom:32px;
+}
+
+h2 {
+  margin-top:20px;
 }
 
 .top {
@@ -97,7 +109,7 @@ img {
 }
 
 h1 {
-  animation: fadein 10s;
+  animation: fadein 6s;
 }
 
 p {
