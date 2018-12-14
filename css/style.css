@@ -7,7 +7,7 @@
   margin-top:0px;
   text-align:center;
   padding: 60px 0px 100px 0px;
-
+  
 }
 
 .fun-font {
@@ -37,6 +37,10 @@
 .col-lg-8 p {
   font-size:1.5em;
   padding:0px 24px;
+}
+
+.row:before, row:after {
+    display: inline-block !important;
 }
 
 .col-lg-4 {
@@ -71,6 +75,7 @@
   text-align: center;
   background-color: #FFD98E !important ;
 }
+
 
 
 .navbar-inverse .navbar-nav li a {
@@ -160,6 +165,7 @@ p {
 
 .deets{
   margin: 32px 0px;
+  padding:0px;
 }
 
 #date {
@@ -184,3 +190,6 @@ html {
 .row:before, row:after {
     display: inline-block !important;
 }
+
+
+
